@@ -1,23 +1,54 @@
 # CCPSD Security Policy
 
 ## Purpose
-The purpose of this policy is to outline district wide security measures with the goal of (1) ensuring the confidential information held by the District in an electronic format is not exposed to unauthorized disclosure; (2) protecting the District's network and resources from attack while ensuring continious high quality service to business processes in day to day use.
+This policy outlines district wide security measures with the goal of (1) ensuring the confidential information held by the District in an electronic format is not exposed to unauthorized disclosure; (2) protecting the District's network and resources from attack while ensuring continuous high quality service to business processes in day to day use.
 
 ## Applicability and Enforcement
-Compliance with applicable CCPSD security policy is mandatory for all CCPSD employees and program participants. Failure to comply will result in disciplinary action determined by the appropriate authority.
+Compliance with applicable CCPSD security policy is mandatory for all CCPSD employees and program participants. Failure to comply will result in disciplinary action determined by the appropriate authority.Disciplinary action may include but is not limited to; forfeiture of the privilege to use technology resources, disciplinary action, and/or legal action
 
 ## Created and Maintained By
 This security policy has is established and maintained by the school board. The CEO is granted additional powers in these proceedings for the purposes of breaking stalemates and quickly reacting to dynamic and urgent situations.
 
 ## Policies
 * Access Control
-* Configuration Managment
-* Data Integrity Assurence
-* Data Security Catagorization
+* Configuration Management
+* Data Integrity Assurance
+* Data Security Categorization
 * Faculty Awareness
 * Identification and Authentication
 * Incident Response
-* Personel Training
-* System and Services Aquisition
-* Wired Managment
+* Monitoring
+* Personnel Training
+* System and Services Acquisition
+* Wired Management
 * Wireless Management
+
+## Data Security Categorization
+The following categories are tiered so that every category is a subset of the following categories. 
+For example, Personally Identifiable Information is also restricted by the guidelines set in Confidential Information, Internal Information, and Public Information. 
+Likewise, Confidential Information is restricted by it's own guidelines, as well as the guidelines of Internal Information and Public Information. Confidential Information is not subject to the guidelines of PII.
+
+1. Personally Identifiable Information (PII)
+	* PII information includes any information that could be used to distinguish or trace an individuals identity. The following list is non-inclusive.
+		* Name
+		* SSN
+		* Date and location of birth
+		* Bio-metric records
+	* Disclosure of PII must meet all guidelines of applicable laws. 
+2. Confidential Information
+	* Confidential Information is important or highly sensitive material. Generally confidential information is not linked to an individual.  The following list is non-inclusive
+		* System Access Passwords
+		* Encryption Keys
+		* Sponsor Information
+		* Financial Information
+	* Access to confidential information has to be cleared by the information owner through Procedure (NumberNotDecided)
+3. Internal Information
+	* Internal Information is intended for unrestricted use inside of the the CCPSD system. In certain situations internal information may be shared with affiliated organizations as appropriate. Internal information requires no permission for distribution within the CCPSD system. The following list is non-inclusive.
+		* Personnel Directories
+		* Internal Policies
+		* System Wide Communications
+	* Any information not explicitly classified as PII, Confidential, or Public will be classified as Internal information by default.
+4. Public Information
+    * Public information may be disclosed outside of the CCPSD system.
+    * Public information must be cleared for release by a designated authority.
+    * Each school in the CCPSD system will have at least one designated authority to clear information as public. 
