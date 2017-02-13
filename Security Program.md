@@ -25,7 +25,10 @@ This security policy has is established and maintained by the school board. The 
 * Wireless Management
 
 ## Security Awareness
-Stuff
+* CCPSD will ensure that all parents are annually reminded of cyber security.
+* CCPSD will ensure that all staff not associated with IT attend an appropriate security training workshop at least once every two years.
+* CCPSD will ensure that all staff associated with IT attend an appropriate security training workshop at least once every year.
+* CCPSD will ensure that all staff responsible for storing or maintaining services that store Confidential or Personally Identifiable Information attend an appropriate security training workshop at least once every year. These individuals will also be responsible for keeping any required certifications up to date.
 
 ### Security Training
 Stuff
