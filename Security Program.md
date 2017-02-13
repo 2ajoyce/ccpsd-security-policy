@@ -14,14 +14,21 @@ This security policy has is established and maintained by the school board. The 
 * Configuration Management
 * Data Integrity Assurance
 * Data Security Categorization
-* Faculty Awareness
 * Identification and Authentication
 * Incident Response
 * Monitoring
 * Personnel Training
+* Security Awareness
+	* Security Training
 * System and Services Acquisition
 * Wired Management
 * Wireless Management
+
+## Security Awareness
+Stuff
+
+### Security Training
+Stuff
 
 ## Data Security Categorization
 The following categories are tiered so that every category is a subset of the following categories. 
