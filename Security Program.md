@@ -24,7 +24,7 @@ This security policy has is established and maintained by the school board. The 
 * Wireless Management
 
 ## Security Awareness & Training
-CCPSD will ensure that:
+CCPSD, lead by the Information Security Officer (ISO) will ensure that:
 * all students are reminded of cyber security principals in the beginning of any class where 80% of classtime is spent in a
 computer lab.
 * all parents are annually reminded of cyber security principals.
