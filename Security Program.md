@@ -18,20 +18,21 @@ This security policy has is established and maintained by the school board. The 
 * Incident Response
 * Monitoring
 * Personnel Training
-* Security Awareness
-	* Security Training
+* Security Awareness & Training
 * System and Services Acquisition
 * Wired Management
 * Wireless Management
 
-## Security Awareness
-* CCPSD will ensure that all parents are annually reminded of cyber security.
-* CCPSD will ensure that all staff not associated with IT attend an appropriate security training workshop at least once every two years.
-* CCPSD will ensure that all staff associated with IT attend an appropriate security training workshop at least once every year.
-* CCPSD will ensure that all staff responsible for storing or maintaining services that store Confidential or Personally Identifiable Information attend an appropriate security training workshop at least once every year. These individuals will also be responsible for keeping any required certifications up to date.
-
-### Security Training
-Stuff
+## Security Awareness & Training
+* CCPSD will ensure that:
+	* all students are reminded of cyber security principals in the beginning of any class where 80% of classtime is spent in a
+	computer lab.
+	* all parents are annually reminded of cyber security principals.
+	* all staff not associated with IT attend an appropriate security training workshop at least once every two years.
+	* all staff associated with IT attend an appropriate security training workshop at least once every year.
+	* all staff responsible for storing (or maintaining services that store) Confidential or Personally Identifiable Information
+	attend an appropriate security training workshop at least once every year. These individuals will also be responsible for
+	keeping any required certifications up to date.
 
 ## Data Security Categorization
 The following categories are tiered so that every category is a subset of the following categories. 
