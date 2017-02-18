@@ -23,6 +23,14 @@ This security policy has is established and maintained by the school board. The 
 * Wired Management
 * Wireless Management
 
+## Access Control
+System and application access wil be granted by the Information Security Officer (ISO) in charge of the school in question. The ISO will follow a least access policy that allows users the minumum of required access in order to perform their duties.
+* Authentication - All Users will be assigned a SSID upon entering the CCPSD system. Users will be required to set a password complient with standard(NUMBER NOT DEFINED YET)(lists password requirements and duration length).
+* Authorization - Users are authorized to log in at any CCPSD network. Access to specific network resources or programs is limited to the school and authorized by the ISO in charge of that school. Procedure (BLANK) details the specifics on how to request access to a resource.
+
+## Security Model
+CCPSD uses the Bell LaPadula Security model. This model uses security classifications which are set up by the schools ISO based on job title. Special circumstances and access can be handled through procedure (BLANK). Different classifications have different network resourcess access permissions and access to different levels of data (PII, ect). 
+
 ## Data Security Categorization
 The following categories are tiered so that every category is a subset of the following categories. 
 For example, Personally Identifiable Information is also restricted by the guidelines set in Confidential Information, Internal Information, and Public Information. 
