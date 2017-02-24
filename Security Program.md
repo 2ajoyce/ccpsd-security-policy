@@ -14,11 +14,12 @@ This security policy has is established and maintained by the school board. The 
 * Configuration Management
 * Data Integrity Assurance
 * Data Security Categorization
-* Faculty Awareness
 * Identification and Authentication
 * Incident Response
 * Monitoring
 * Personnel Training
+* Security Awareness & Training
+* Security Model
 * System and Services Acquisition
 * Wired Management
 * Wireless Management
@@ -27,9 +28,6 @@ This security policy has is established and maintained by the school board. The 
 System and application access wil be granted by the Information Security Officer (ISO) in charge of the school based on user roles. The ISO will follow a least access policy that allows users the minumum of required access in order to perform their duties.
 * Authentication - All users will be assigned a SSID upon entering the CCPSD system. Users will be required to set a password complient with standard(NUMBER NOT DEFINED YET)(lists password requirements and duration length).
 * Authorization - Users are authorized to log in at any CCPSD network. Access to specific network resources or programs is limited to the school and authorized by the ISO in charge of that school. Procedure (BLANK) details the specifics on how to request access to a resource.
-
-## Security Model
-CCPSD uses the Clark-Wilson Security model. This model uses security classifications which are set up by the schools ISO based on job title. Special circumstances and access can be handled through procedure (BLANK). Different classifications have different network resource access permissions and access to different levels of data (PII, ect). Users must use correct procedures to modify data as in most cases direct interaction will not be permitted.
 
 ## Data Security Categorization
 The following categories are tiered so that every category is a subset of the following categories. 
@@ -59,4 +57,16 @@ Likewise, Confidential Information is restricted by it's own guidelines, as well
 4. Public Information
     * Public information may be disclosed outside of the CCPSD system.
     * Public information must be cleared for release by a designated authority.
-    * Each school in the CCPSD system will have at least one designated authority to clear information as public. 
+    * Each school in the CCPSD system will have at least one designated authority to clear information as public.
+
+## Security Awareness & Training
+CCPSD, lead by the Information Security Officer (ISO) will ensure that:
+* all students are reminded of cyber security principals in the beginning of any class where 80% of classtime is spent in a computer lab.
+* all parents are annually reminded of cyber security principals.
+* all staff not associated with IT attend an appropriate security training workshop at least once every two years.
+* all staff associated with IT attend an appropriate security training workshop at least once every year.
+* all staff responsible for storing (or maintaining services that store) Confidential or Personally Identifiable Information attend an appropriate security training workshop at least once every year. These individuals will also be responsible for keeping any required certifications up to date.
+
+## Security Model
+CCPSD uses the Clark-Wilson Security model. This model uses security classifications which are set up by the schools ISO based on job title. Special circumstances and access can be handled through procedure (BLANK). Different classifications have different network resource access permissions and access to different levels of data (PII, ect). Users must use correct procedures to modify data as in most cases direct interaction will not be permitted.
+
