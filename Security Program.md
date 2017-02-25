@@ -68,6 +68,7 @@ Host Security
 * All computers available for student use will be configured according to procedure(BLANK).
 * All computers available for faculty use will be configured according to procedure(BLANK).
 * Additional resources(software, ect) can be requested on a machine using procedure(BLANK).
+
 Network Security
 * All staff computers must connect to a secure network.
 * Schools must provide private wireless access to its students and staff throughout the building. This network is not considered secure.
