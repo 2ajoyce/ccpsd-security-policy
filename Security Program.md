@@ -17,6 +17,7 @@ This security policy has is established and maintained by the school board. The 
 * Identification and Authentication
 * Incident Response
 * Monitoring
+* Operational Security
 * Personnel Training
 * Security Awareness & Training
 * Security Model
@@ -58,6 +59,23 @@ Likewise, Confidential Information is restricted by it's own guidelines, as well
     * Public information may be disclosed outside of the CCPSD system.
     * Public information must be cleared for release by a designated authority.
     * Each school in the CCPSD system will have at least one designated authority to clear information as public.
+
+## Operational Security
+Host Security
+* All computers will be tethered to the desk they rest on.
+* All staff computers will reside in offices which are to be locked when not in use.
+* All computers available for public use will be configured according to procedure(BLANK).
+* All computers available for student use will be configured according to procedure(BLANK).
+* All computers available for faculty use will be configured according to procedure(BLANK).
+* Additional resources(software, ect) can be requested on a machine using procedure(BLANK).
+
+Network Security
+* All staff computers must connect to a secure network.
+* Schools must provide private wireless access to its students and staff throughout the building. This network is not considered secure.
+* Complete client isolation will be implimented on unsecure networks. Network resources will be exempt from this rule so they are available to all clients.
+* Schools must provide wired ethernet ports in every staff office equal to the number of staff in that office. These will must be secure.
+* Schools will configure their networks following procedure(BLANK).
+* Schools will employ a firewall meeting criteria (BLANK) at the entrance to their network. This defense need not be diversified. The cost of diversification would be wasted on a network that is open in so many other areas.
 
 ## Security Awareness & Training
 CCPSD, lead by the Information Security Officer (ISO) will ensure that:
