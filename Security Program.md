@@ -30,6 +30,35 @@ System and application access wil be granted by the Information Security Officer
 * Authentication - All users will be assigned a SSID upon entering the CCPSD system. Users will be required to set a password complient with standard(NUMBER NOT DEFINED YET)(lists password requirements and duration length).
 * Authorization - Users are authorized to log in at any CCPSD network. Access to specific network resources or programs is limited to the school and authorized by the ISO in charge of that school. Procedure (BLANK) details the specifics on how to request access to a resource.
 
+## Data Integrity Assurance
+Each school will maintain a single main data center supplemented by data closets located around the school. The data center can be supplemented by additional data centers if necessary. This addition will be based on the size of the school in question and should be brought up with the CIO of the school district prior to construction. Any additional data centers will be subject to the same restrictions as the original data center. Data center construction requirements can be found in Specification Document(NOT ADDED). Data closet requirements can be found in Specification Document(Not Added).
+
+### Non-Inclusive Specification Document Previews For Homework Purposes
+#### Data Centers
+The following guidelines must be met to the satisfaction of the school districts CIO:
+* The data center must be centrally located in a room with solid walls and no windows.
+* The walls, ceiling, and floor must be constructed of enough material to block sound and ensure  security. Cinderblock would be ideal but thicker than average stick construction can also work. 
+* The room must have no openings or entrances that do not classify as either a solid door that can remain locked, a cable route that runs into a wall or other enclosed space, a vent for climate control that runs through an enclosed space, or a drain.
+* The room must have a battery backup capable of running all critical services for a minimum of 30 minutes.
+* The room must have a generator backup capable of running all critical services for a minimum of 8 hours.
+* The room must have video surveillance with footage stored in real time at a location not inside the data center.
+* The room must have a locking mechanism on the door that prevents access by unauthorized personel.
+* The room must be autommatically and continiously monitored for flooding, smoke, and carbon monoxide. 
+* The room must have drainage sufficent to drain 10 times the volume of water the enters the room in pipes.
+* The room must have automated humidity controls.
+* All alarms in the room must make enough noise to be clearly heard anywhere inside of the room as well as sending out alerts over the network through preconfigured channels. These alarms will be automatically tested monthly.
+
+#### Data Closets
+* The data closet must be located in a room with solid walls and no windows.
+* The walls, ceiling, and floor must be constructed of enough material to block sound and ensure  security. Cinderblock would be ideal but thicker than average stick construction can also work. 
+* The room must have no openings or entrances that do not classify as either a solid door that can remain locked, a cable route that runs into a wall or other enclosed space, a vent for climate control that runs through an enclosed space, or a drain.
+* The room must have a battery backup capable of running all critical services for a minimum of 30 minutes.
+* The room must have video surveillance with footage stored in real time at a location not inside the data closet.
+* The room must have a locking mechanism on the door that prevents access by unauthorized personel.
+* The room must be autommatically and continiously monitored for flooding, smoke, and carbon monoxide. 
+* All alarms in the room must make enough noise to be clearly heard anywhere inside of the room as well as sending out alerts over the network through preconfigured channels. These alarms will be automatically tested monthly.
+
+
 ## Data Security Categorization
 The following categories are tiered so that every category is a subset of the following categories. 
 For example, Personally Identifiable Information is also restricted by the guidelines set in Confidential Information, Internal Information, and Public Information. 
