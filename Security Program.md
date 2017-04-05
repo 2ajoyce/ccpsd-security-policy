@@ -17,6 +17,7 @@ This security policy has is established and maintained by the school board. The 
 * Identification and Authentication
 * Incident Response
 * Monitoring
+* Network Security
 * Operational Security
 * Personnel Training
 * Security Awareness & Training
@@ -29,6 +30,65 @@ This security policy has is established and maintained by the school board. The 
 System and application access wil be granted by the Information Security Officer (ISO) in charge of the school based on user roles. The ISO will follow a least access policy that allows users the minumum of required access in order to perform their duties.
 * Authentication - All users will be assigned a SSID upon entering the CCPSD system. Users will be required to set a password complient with standard(NUMBER NOT DEFINED YET)(lists password requirements and duration length).
 * Authorization - Users are authorized to log in at any CCPSD network. Access to specific network resources or programs is limited to the school and authorized by the ISO in charge of that school. Procedure (BLANK) details the specifics on how to request access to a resource.
+
+## Configuration Management
+### System Configuration
+All systems on the CCPSD network must meet the guidelines specified in the appropriate section of this list.
+#### School owned faculty accessible systems
+These systems must meet the guidelines in Specification Document(Not Included)
+**Sample Guidelines**
+* Disable booting from devices other than the hard drive.
+* BIOS is password protected.
+* OS is kept patched and updated with centralized patching.
+* Services from (this) whitelist only unless otherwise approved.
+* Mandatory antivirus program installed and scheduled to run and update.
+* Mandatory system firewall enabled with the rules from (this) list.
+* Must connect to the internet through the network firewall.
+* Only faculty accounts are allowed to log in.
+
+#### School owned student accessible systems
+These systems must meet the guidelines in Specification Document(Not Included)
+**Sample Guidelines**
+* Disable booting from devices other than the hard drive.
+* BIOS is password protected.
+* OS is kept patched and updated with centralized patching.
+* Services from (this) whitelist only unless otherwise approved.
+* Mandatory antivirus program installed and scheduled to run and update.
+* Mandatory system firewall enabled with the rules from (this) list.
+* Must connect to the internet through the network firewall.
+* System is rebuilt at least once a week to reset the machine.
+
+#### Privately owned systems
+These systems are not required to meet any guidelines and as such they should only be connected to the network through wifi to enable client isolation.
+
+#### School owned web servers
+These systems must meet the guidelines in Specification Document(Not Included)
+**Sample Guidelines**
+* OS is kept patched and updated with centralized patching.
+* Services from (this) whitelist only unless otherwise approved.
+* Mandatory antivirus program installed and scheduled to run and update.
+* Mandatory system firewall enabled with the rules from (this) list.
+* Only designated accounts specified by the ISO can log into this machine.
+
+#### School owned database servers
+These systems must meet the guidelines in Specification Document(Not Included)
+**Sample Guidelines**
+* OS is kept patched and updated with centralized patching.
+* Services from (this) whitelist only unless otherwise approved.
+* Antivirus is not included on this system as it is never exposed to the internet.
+* Mandatory system firewall enabled with the rules from (this) list.
+* Must connect to the internet through the network firewall.
+* Only designated accounts specified by the ISO can log into this machine.
+
+#### School owned application servers
+These systems must meet the guidelines in Specification Document(Not Included)
+**Sample Guidelines**
+* OS is kept patched and updated with centralized patching.
+* Services from (this) whitelist only unless otherwise approved.
+* Mandatory antivirus program installed and scheduled to run and update.
+* Mandatory system firewall enabled with the rules from (this) list.
+* Must connect to the internet through the network firewall.
+* Only designated accounts specified by the ISO can log into this machine.
 
 ## Data Integrity Assurance
 Each school will maintain a single main data center supplemented by data closets located around the school. The data center can be supplemented by additional data centers if necessary. This addition will be based on the size of the school in question and should be brought up with the CIO of the school district prior to construction. Any additional data centers will be subject to the same restrictions as the original data center. Data center construction requirements can be found in Specification Document(NOT ADDED). Data closet requirements can be found in Specification Document(Not Added).
@@ -88,6 +148,21 @@ Likewise, Confidential Information is restricted by it's own guidelines, as well
     * Public information may be disclosed outside of the CCPSD system.
     * Public information must be cleared for release by a designated authority.
     * Each school in the CCPSD system will have at least one designated authority to clear information as public.
+
+## Monitoring
+Automated logging occurs on every CCPSD owned system. All logs are sent to a central location inside the main data closet. The main data log storage is mirrored to a secure off site location in real time. The off site mirroring is non reversable and read only from within the network being monitored. Continuity between the on and off site log storage will be monitored automatically and discrepancies will be reported to the ISO. Details on how to set up the automated logging on each type of device can be found in Procedure(Not Included).
+
+## Network Security
+### Switch configuration
+All switches deployed will be managed switches. They will run four VLAN's. Vlan 1 will be for the wireless. Vlan 2 will be for the wired school owned faculty accessible systems. Vlan 3 will be for the wired school owned student accessible systems. Vlan 4 will be used for switch and other device managment. Access to Vlan 4 is highly restricted.
+### Wireless Design
+All wireless is accessible with a CCPSD SSID and password. All wireless is client isolated and considered unsecure. Wireless access points are to be replaced and configured using Specification Document(Not Added).
+### Firewall
+One non-application layer firewall is deployed at the border of the network. This firewall is to be replaced and configured using Specification Document(Not Added). 
+### Phone
+All phone access is handled over VOIP. These phones and systems should be configured using Specification Document(Not Added).
+### Tunneling
+Some information may need to be accessible outside of the school. This exterior access is to be handled through secure tunnelling configured though the systems and using the standards outlined in Specification Document(Not Added).
 
 ## Operational Security
 Host Security
