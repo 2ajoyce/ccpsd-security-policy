@@ -11,9 +11,11 @@ This security policy has is established and maintained by the school board. The 
 
 ## Policies
 * Access Control
+* Business Continuity Plan
 * Configuration Management
 * Data Integrity Assurance
 * Data Security Categorization
+* Disaster Recovery Plan 
 * Identification and Authentication
 * Incident Response
 * Monitoring
@@ -30,6 +32,9 @@ This security policy has is established and maintained by the school board. The 
 System and application access wil be granted by the Information Security Officer (ISO) in charge of the school based on user roles. The ISO will follow a least access policy that allows users the minumum of required access in order to perform their duties.
 * Authentication - All users will be assigned a SSID upon entering the CCPSD system. Users will be required to set a password complient with standard(NUMBER NOT DEFINED YET)(lists password requirements and duration length).
 * Authorization - Users are authorized to log in at any CCPSD network. Access to specific network resources or programs is limited to the school and authorized by the ISO in charge of that school. Procedure (BLANK) details the specifics on how to request access to a resource.
+
+## Business Continuity Plan
+
 
 ## Configuration Management
 ### System Configuration
@@ -148,6 +153,16 @@ Likewise, Confidential Information is restricted by it's own guidelines, as well
     * Public information may be disclosed outside of the CCPSD system.
     * Public information must be cleared for release by a designated authority.
     * Each school in the CCPSD system will have at least one designated authority to clear information as public.
+
+## Disaster Recovery Plan
+### Plan
+### Process
+### Utilities
+### Secure Recovery
+### High Availablility & Fault Tolerance
+### Computer Incident Response Team
+### Computer Emergency Reponse Team
+### Testing
 
 ## Monitoring
 Automated logging occurs on every CCPSD owned system. All logs are sent to a central location inside the main data closet. The main data log storage is mirrored to a secure off site location in real time. The off site mirroring is non reversable and read only from within the network being monitored. Continuity between the on and off site log storage will be monitored automatically and discrepancies will be reported to the ISO. Details on how to set up the automated logging on each type of device can be found in Procedure(Not Included).
