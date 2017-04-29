@@ -14,6 +14,7 @@ This security policy has is established and maintained by the school board. The 
 * Configuration Management
 * Data Integrity Assurance
 * Data Security Categorization
+* Disaster Recovery Plan 
 * Identification and Authentication
 * Incident Response
 * Monitoring
@@ -148,6 +149,23 @@ Likewise, Confidential Information is restricted by it's own guidelines, as well
     * Public information may be disclosed outside of the CCPSD system.
     * Public information must be cleared for release by a designated authority.
     * Each school in the CCPSD system will have at least one designated authority to clear information as public.
+
+## Disaster Recovery Plan
+### Plan
+In the event of a incident the Incident Response Team will be notified. In special circumstances they, or a high ranking individual outside of the team will classify the incident as an emergency and bring in the Cmoputer Emergency Response Team. These two teams have policies in place covering most circumstances.
+### Utilities
+An alternative site in the form of a precontracted mobile trailer has been contracted from a local company. This facility can be on site within 24 hours of being notified by the Computer Emergency Response Team.
+### Secure Recovery
+Full off site backups are maintained on a daily basis. Offsite network logs are maintained on a constant basis. In an emergency these backups can be duplicated and on site within 48 hours of being notified by the Computer Emergency Response Team.
+### High Availablility & Fault Tolerance
+Network services will be back up and semi functional within 24 hours. Access to full network data may require up to 48 hours after an emergency. 
+No more than 24 hours of data will ever be lost in any statsistically probably disaster.
+### Computer Incident Response Team
+The Computer Incident Response Team will be assigned by the ISO. This team will be cross disciplinary in order to be effective at addressing a broad range of incidents. The teams contact information will be available to most departments. 
+### Computer Emergency Reponse Team
+The Computer Emergency Response Team will be assigned by the ISO and their contact information will be easily accessible in a form that does not require power or internet access. Some portion of this team is required to be on call at all times. The contact information of this team is not broadly available. Only a handful of highly placed individuals have the authority to bring them in outside normal hours.
+### Testing
+Off site backups will be tested every 2 weeks by an automated checksum process. Off site backups will be tested every 60 days through manual checking.
 
 ## Monitoring
 Automated logging occurs on every CCPSD owned system. All logs are sent to a central location inside the main data closet. The main data log storage is mirrored to a secure off site location in real time. The off site mirroring is non reversable and read only from within the network being monitored. Continuity between the on and off site log storage will be monitored automatically and discrepancies will be reported to the ISO. Details on how to set up the automated logging on each type of device can be found in Procedure(Not Included).
